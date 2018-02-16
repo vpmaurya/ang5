@@ -1,0 +1,23 @@
+<nav id="nav-bar" class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" routerLink="/home">Analytics</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="dropdown">
+                <a routerLink="/dashboard" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dashboard <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a routerLink="/dashboard">Home</a></li> 
+                    <li><a routerLink="/dashboard/super">Child</a></li>                  
+                </ul>
+            </li>
+            <li> <a routerLink="/account" routerLinkActive="active">Account</a></li>
+            <li> <a routerLink="/sport" routerLinkActive="active">Insights</a></li>
+            <li> <a routerLink="/users" routerLinkActive="active">Users</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li> <a routerLink="/signup" routerLinkActive="active">SignUp</a></li>
+            <li> <a routerLink="/login" routerLinkActive="active">Login</a></li>
+        </ul>
+    </div>
+</nav>

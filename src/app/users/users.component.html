@@ -1,0 +1,11 @@
+<main role="main">
+
+    <div class="jumbotron" [ngBusy]="busy">
+      <h3 class="display-4">Users</h3>
+      <seg-table [tableData]=data (rowClickData)="performAction($event)"></seg-table>
+    </div>
+  
+    {{actionData | json}}
+  
+    
+  </main>

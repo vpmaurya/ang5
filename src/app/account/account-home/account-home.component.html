@@ -1,0 +1,26 @@
+<main role="main">
+
+  <div class="jumbotron">
+    <h1 class="display-4">Account - Home</h1>
+    <hr class="my-4">  
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <td>ID</td>
+          <td>USERID</td>
+          <td>TITLE</td>
+          <td>BODY</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of users">
+           <td>{{user.id}}</td>
+           <td>{{user.userId}}</td>
+           <td>{{user.title}}</td>
+           <td>{{user.body}}</td>
+        </tr>
+      </tbody>
+    </table>    
+  </div>
+
+</main>

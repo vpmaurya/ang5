@@ -1,0 +1,19 @@
+[{
+    "id": 1,
+    "name": "Chris",
+    "login": "sevilayha",
+    "avatar_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQALmfBJtM0YZu3VatEEOQdJG4xFwdenRYgXDgeV3jV_fKKbcGpDQ"
+},
+{
+    "id": 2,
+    "name": "Nick",
+    "login": "whatnicktweets",
+    "avatar_url": "https: //encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7nDaRIqalO-ReDs_tDSIYtTE-o3VEPbXrVFbs5mTOSTU6StPMyg"
+},
+{
+    "id": 3,
+    "name": "Holly",
+    "login": "hollylawly",
+    "avatar_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRerVHtXMGgMgJhLwkuqw-U5l_qM9sXjcBJ6c_Ofs5The7PxZyc"
+}
+]

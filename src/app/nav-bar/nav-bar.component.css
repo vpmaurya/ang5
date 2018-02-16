@@ -1,0 +1,28 @@
+.navbar-inverse {
+    background-color: #0a4c81;
+    border-color: #fff;
+}
+
+#nav-bar a {
+    color: #ffffff;
+}
+
+#nav-bar li:hover, dropdown open {
+    background-color: #052646;
+}
+
+.dropdown-toggle[aria-expanded="true"] {
+    background: #052646 !important;
+    color: #ffffff !important;
+}
+
+.dropdown-menu {
+    background: rgb(10, 76, 129);
+    color: #ffffff !important;
+}
+
+.dropdown-menu li a:hover {
+    background: #0a6ab8;
+    color: #ccc !important;
+    font-size: 14px;
+}
